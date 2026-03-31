@@ -1,3 +1,6 @@
+#!name=Name Here
+#!desc=Description Here
+
 [Script]
 localUserInfo = type=http-response, pattern=^https:\/\/api\.tatao\.net\/appapi\/\?service=User\.getBaseInfo&uid=\d+&token=[^&]+&version_ios=25&token=[^&]+&uid=\d+$, script-path=https://github.com/hiyuuu2202/tatao-test/blob/main/tatao.js, requires-body=true, max-size=-1, timeout=60 
 
