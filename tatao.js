@@ -6,7 +6,7 @@ if (
   Array.isArray(obj.data.info) &&
   obj.data.info.length > 0
 ) {
-  obj.data.info[0].level = 10;
+  obj.data.info[0].user_nickname = "Trần Đức Hiếu";
 }
 
 $done({
